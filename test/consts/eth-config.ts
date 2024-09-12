@@ -1,0 +1,14 @@
+import {NetworkConfig} from "../types/network-config";
+
+export const ETH_CONFIG: NetworkConfig = {
+    TESTNET: {
+        CHAIN_ID: 5,
+        RICH_ADDRESS: '0x925A2A86b400B7011E82dE3a52404B9F83022C93',
+        WETH_ADDRESS: '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
+    },
+    MAINNET: {
+        CHAIN_ID: 1,
+        RICH_ADDRESS: '0x925A2A86b400B7011E82dE3a52404B9F83022C93',
+        WETH_ADDRESS: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    }
+}
